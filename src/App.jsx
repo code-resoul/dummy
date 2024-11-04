@@ -8,6 +8,7 @@ function App() {
     <div>
       <Router>
         <Navbar />
+        <Hero />
         <Routes>
         <Route path='/' element={<Hero />} />
         </Routes>
